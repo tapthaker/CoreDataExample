@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		FF73C3EF1AD6EE2C00751D09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73C3EE1AD6EE2C00751D09 /* main.m */; };
 		FF73C3F21AD6EE2C00751D09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73C3F11AD6EE2C00751D09 /* AppDelegate.m */; };
-		FF73C3F51AD6EE2C00751D09 /* CoreDataExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF73C3F31AD6EE2C00751D09 /* CoreDataExample.xcdatamodeld */; };
+		FF73C3F51AD6EE2C00751D09 /* Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF73C3F31AD6EE2C00751D09 /* Log.xcdatamodeld */; };
 		FF73C3F81AD6EE2C00751D09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73C3F71AD6EE2C00751D09 /* ViewController.m */; };
 		FF73C3FB1AD6EE2C00751D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF73C3F91AD6EE2C00751D09 /* Main.storyboard */; };
 		FF73C3FD1AD6EE2C00751D09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF73C3FC1AD6EE2C00751D09 /* Images.xcassets */; };
 		FF73C4001AD6EE2C00751D09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF73C3FE1AD6EE2C00751D09 /* LaunchScreen.xib */; };
 		FF73C40C1AD6EE2C00751D09 /* CoreDataExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73C40B1AD6EE2C00751D09 /* CoreDataExampleTests.m */; };
+		FF73C4171AD6EF9B00751D09 /* TTManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73C4161AD6EF9B00751D09 /* TTManagedObjectContext.m */; };
+		FF73C41A1AD6F87300751D09 /* Characters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF73C4181AD6F87300751D09 /* Characters.xcdatamodeld */; };
+		FF73C41B1AD6F8ED00751D09 /* Characters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF73C4181AD6F87300751D09 /* Characters.xcdatamodeld */; };
+		FF73C41C1AD6F8F000751D09 /* Log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF73C3F31AD6EE2C00751D09 /* Log.xcdatamodeld */; };
+		FF73C41D1AD6F8F300751D09 /* TTManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = FF73C4161AD6EF9B00751D09 /* TTManagedObjectContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +38,7 @@
 		FF73C3EE1AD6EE2C00751D09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF73C3F01AD6EE2C00751D09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF73C3F11AD6EE2C00751D09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF73C3F41AD6EE2C00751D09 /* CoreDataExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataExample.xcdatamodel; sourceTree = "<group>"; };
+		FF73C3F41AD6EE2C00751D09 /* Log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Log.xcdatamodel; sourceTree = "<group>"; };
 		FF73C3F61AD6EE2C00751D09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FF73C3F71AD6EE2C00751D09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF73C3FA1AD6EE2C00751D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +47,9 @@
 		FF73C4051AD6EE2C00751D09 /* CoreDataExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF73C40A1AD6EE2C00751D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF73C40B1AD6EE2C00751D09 /* CoreDataExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExampleTests.m; sourceTree = "<group>"; };
+		FF73C4151AD6EF9B00751D09 /* TTManagedObjectContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTManagedObjectContext.h; sourceTree = "<group>"; };
+		FF73C4161AD6EF9B00751D09 /* TTManagedObjectContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTManagedObjectContext.m; sourceTree = "<group>"; };
+		FF73C4191AD6F87300751D09 /* Characters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Characters.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +98,11 @@
 				FF73C3F91AD6EE2C00751D09 /* Main.storyboard */,
 				FF73C3FC1AD6EE2C00751D09 /* Images.xcassets */,
 				FF73C3FE1AD6EE2C00751D09 /* LaunchScreen.xib */,
-				FF73C3F31AD6EE2C00751D09 /* CoreDataExample.xcdatamodeld */,
+				FF73C3F31AD6EE2C00751D09 /* Log.xcdatamodeld */,
+				FF73C4181AD6F87300751D09 /* Characters.xcdatamodeld */,
 				FF73C3EC1AD6EE2C00751D09 /* Supporting Files */,
+				FF73C4151AD6EF9B00751D09 /* TTManagedObjectContext.h */,
+				FF73C4161AD6EF9B00751D09 /* TTManagedObjectContext.m */,
 			);
 			path = CoreDataExample;
 			sourceTree = "<group>";
@@ -224,8 +235,10 @@
 			files = (
 				FF73C3F21AD6EE2C00751D09 /* AppDelegate.m in Sources */,
 				FF73C3EF1AD6EE2C00751D09 /* main.m in Sources */,
+				FF73C4171AD6EF9B00751D09 /* TTManagedObjectContext.m in Sources */,
 				FF73C3F81AD6EE2C00751D09 /* ViewController.m in Sources */,
-				FF73C3F51AD6EE2C00751D09 /* CoreDataExample.xcdatamodeld in Sources */,
+				FF73C3F51AD6EE2C00751D09 /* Log.xcdatamodeld in Sources */,
+				FF73C41A1AD6F87300751D09 /* Characters.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF73C41D1AD6F8F300751D09 /* TTManagedObjectContext.m in Sources */,
 				FF73C40C1AD6EE2C00751D09 /* CoreDataExampleTests.m in Sources */,
+				FF73C41C1AD6F8F000751D09 /* Log.xcdatamodeld in Sources */,
+				FF73C41B1AD6F8ED00751D09 /* Characters.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +444,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FF73C3F31AD6EE2C00751D09 /* CoreDataExample.xcdatamodeld */ = {
+		FF73C3F31AD6EE2C00751D09 /* Log.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FF73C3F41AD6EE2C00751D09 /* CoreDataExample.xcdatamodel */,
+				FF73C3F41AD6EE2C00751D09 /* Log.xcdatamodel */,
 			);
-			currentVersion = FF73C3F41AD6EE2C00751D09 /* CoreDataExample.xcdatamodel */;
-			path = CoreDataExample.xcdatamodeld;
+			currentVersion = FF73C3F41AD6EE2C00751D09 /* Log.xcdatamodel */;
+			path = Log.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FF73C4181AD6F87300751D09 /* Characters.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF73C4191AD6F87300751D09 /* Characters.xcdatamodel */,
+			);
+			currentVersion = FF73C4191AD6F87300751D09 /* Characters.xcdatamodel */;
+			path = Characters.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
